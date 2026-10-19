@@ -525,8 +525,9 @@ class _DesktopTabState extends State<DesktopTab>
         if (stateGlobal.showTabBar.isTrue &&
             !(kUseCompatibleUiMode && isHideSingleItem())) {
           final showBottomDivider = _showTabBarBottomDivider(tabType);
-          return SizedBox(
+          return Container(
             height: _kTabBarHeight,
+            color: const Color(0xFF8E5BD0),
             child: Column(
               children: [
                 SizedBox(

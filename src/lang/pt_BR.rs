@@ -2,7 +2,7 @@ lazy_static::lazy_static! {
 pub static ref T: std::collections::HashMap<&'static str, &'static str> =
     [
         ("Status", "Status"),
-        ("Your Desktop", "Seu Computador"),
+        ("Your Desktop", "Seu Desktop"),
         ("desk_tip", "Seu computador pode ser acessado com este ID e senha."),
         ("Password", "Senha"),
         ("Ready", "Pronto"),
@@ -13,7 +13,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Service is running", "Serviço está em execução"),
         ("Service is not running", "Serviço não está em execução"),
         ("not_ready_status", "Não está pronto. Por favor verifique sua conexão"),
-        ("Control Remote Desktop", "Controle um Computador Remoto"),
+        ("Control Remote Desktop", "Controlar outro Desktop"),
         ("Transfer file", "Transferir arquivos"),
         ("Connect", "Conectar"),
         ("Recent sessions", "Sessões recentes"),
@@ -170,7 +170,7 @@ pub static ref T: std::collections::HashMap<&'static str, &'static str> =
         ("Local Port", "Porta Local"),
         ("Local Address", "Endereço Local"),
         ("Change Local Port", "Alterar Porta Local"),
-        ("setup_server_tip", "Para uma conexão mais rápida, por favor configure seu próprio servidor"),
+        ("setup_server_tip", "Conectado ao servidor Webcampos"),
         ("Too short, at least 6 characters.", "Muito curto, pelo menos 6 caracteres."),
         ("The confirmation is not identical.", "A confirmação não é idêntica."),
         ("Permissions", "Permissões"),
